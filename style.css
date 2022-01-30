@@ -99,6 +99,7 @@ a.default_btn {
 .breakfast_card p {
     letter-spacing: 2px;
     font-size: 16px;
+    line-height: 25px;
 }
 
 .breakfast_img {
@@ -139,4 +140,106 @@ a.default_btn {
     letter-spacing: 2px;
     margin-top: 20px;
     font-weight: 900;
+}
+
+
+/* -------delevary area---------- */
+
+.delevary_area {
+    padding: 80px 120px;
+    height: 600px;
+}
+
+.delevary_img {
+    float: left;
+    width: 50%;
+}
+
+.delevary_img .img_box img {
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+}
+
+.delevary_content {
+    float: right;
+    width: 50%;
+}
+
+.delevary_card {
+    width: 550px;
+    height: 450px;
+    padding: 30px 50px;
+    background: #eee;
+}
+
+.delevary_content p {
+    font-size: 18px;
+    letter-spacing: 2px;
+    line-height: 25px;
+}
+
+
+/* -----footer area----- */
+
+.footer_area {
+    height: 650px;
+    padding: 80px 120px;
+    background: #000;
+}
+
+.footer_img {
+    float: left;
+    width: 50%;
+}
+
+.footer_img img {
+    width: 500px;
+    height: 500px;
+}
+
+.footer_content {
+    float: right;
+    width: 50%;
+    color: #fff;
+    text-align: center;
+    padding: 150px 0;
+}
+
+.footer_content h2 {
+    font-size: 40px;
+    text-transform: capitalize;
+    font-weight: 700;
+}
+
+.footer_content p {
+    font-size: 25px;
+    text-transform: capitalize;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.footer_content h4 {
+    font-size: 25px;
+    text-transform: capitalize;
+    font-weight: 500;
+    margin: 30px 0 20px 0;
+}
+
+.footer_content .btn {
+    margin-top: 0;
+}
+
+.btn input {
+    padding: 11px 15px;
+}
+
+.default_btn.submit_btn {
+    border-radius: 0;
+}
+
+.footer_content ul li {
+    font-size: 18px;
+    line-height: 25px;
+    list-style: none;
 }
